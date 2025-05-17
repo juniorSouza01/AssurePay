@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-container">
+            <a href="#" class="logo">AssurePay</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Solutions <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Developers <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Resources <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Pricing</a></li>
+                </ul>
+            </nav>
+            <div class="secondary-nav">
+                <a href="#">Dashboard <i class="fas fa-chevron-right"></i></a>
+                <a href="#" class="btn btn-contact-sales">Contact sales <i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text-content">
+                <h1>Financial infrastructure to grow your <span>revenue</span></h1>
+                <p>Join the millions of companies that use AssurePay to accept payments online and in person, embed financial services, power custom revenue models, and build a more profitable business.</p>
+                <form class="email-signup">
+                    <input type="email" placeholder="Email address">
+                    <button type="submit" class="btn btn-start-now">Start now <i class="fas fa-chevron-right"></i></button>
+                </form>
+            </div>
+            <div></div>
+            <div class="hero-visuals-wrapper">
+                <div class="payment-form-mockup">
+                    <div class="product-image-placeholder">
+                         <img src="https://assets.website-files.com/6164810c96167346437a7966/6164810c9616737c137a7996_Image.png" alt="Abstraction Magazine Cover">
+                    </div>
+                    <h4>Abstraction Magazine</h4>
+                    <p class="price">R$19 per month</p>
+
+                    <button class="btn btn-apple-pay"><i class="fab fa-apple"></i> Pay</button>
+                    <p class="or-divider"><span>Or pay with card</span></p>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="email-payment">Email</label>
+                            <input type="email" id="email-payment">
+                        </div>
+                        <div class="form-group">
+                            <label for="card-number">Card Information</label>
+                            <div class="card-number-input-container">
+                                <input type="text" id="card-number" placeholder="Number">
+                                <div class="card-icons">
+                                    <i class="fab fa-cc-visa"></i>
+                                    <i class="fab fa-cc-mastercard"></i>
+                                    <i class="fab fa-cc-amex"></i>
+                                    <i class="fab fa-cc-discover"></i>
+                                </div>
+                            </div>
+                            <div class="card-details-row">
+                                <input type="text" placeholder="MM / YY" class="half-width">
+                                <input type="text" placeholder="CVC" class="half-width">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="country">Country or region</label>
+                            <select id="country">
+                                <option selected>United States</option>
+                                <option>Canada</option>
+                                <option>Brazil</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                             <input type="text" placeholder="ZIP">
+                        </div>
+                        <button type="submit" class="btn btn-pay-now">Pay</button>
+                    </form>
+                </div>
+                <div></div>
+                <div class="dashboard-mockup">
+                    <div class="dashboard-top-bar">
+                        <div class="rocket-rides">
+                            <span class="rocket-icon-placeholder">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.58977 2.33333C9.7599 2.14888 10.0065 2.04514 10.2634 2.04545H13.7366C13.9935 2.04514 14.2401 2.14888 14.4102 2.33333L16.7013 5H7.29871L9.58977 2.33333Z" fill="#CAD3DF"></path><path d="M7 6C6.44772 6 6 6.44772 6 7V10H18V7C18 6.44772 17.5523 6 17 6H7Z" fill="#CAD3DF"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M6 17.9545C6 19.084 6.91603 20 8.04545 20H15.9545C17.084 20 18 19.084 18 17.9545V11H6V17.9545ZM10 13.5C10 13.2239 10.2239 13 10.5 13H13.5C13.7761 13 14 13.2239 14 13.5C14 13.7761 13.7761 14 13.5 14H10.5C10.2239 14 10 13.7761 10 13.5ZM10.5 16C10.2239 16 10 16.2239 10 16.5C10 16.7761 10.2239 17 10.5 17H13.5C13.7761 17 14 16.7761 14 16.5C14 16.2239 13.7761 16 13.5 16H10.5Z" fill="#CAD3DF"></path></svg>
+                            </span>
+                            ROCKET RIDES <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="search-bar">
+                            <i class="fas fa-search"></i>
+                            <input type="text" placeholder="Search">
+                        </div>
+                    </div>
+                    <div class="dashboard-content">
+                        <div class="main-chart-area">
+                            <div class="chart-header">
+                                <div class="net-volume-select">
+                                    Net volume <i class="fas fa-chevron-down"></i>
+                                    <strong>R$3,528,198.72</strong>
+                                    <small>2:00 PM</small>
+                                </div>
+                                <div class="yesterday-volume">
+                                    Yesterday <i class="fas fa-chevron-down"></i>
+                                    <span>R$2,931,556.34</span>
+                                </div>
+                            </div>
+                            <div class="chart-placeholder main-chart-img">
+                                <img src="https://via.placeholder.com/500x120/E9E9EF/ADADBE?text=Main+Graph" alt="Main sales chart">
+                            </div>
+                            <div class="chart-timeline">
+                                <span>12:00 AM</span>
+                                <span>Now, 2:00 PM</span>
+                                <span>11:59 PM</span>
+                            </div>
+                        </div>
+                        <div class="small-charts-area">
+                            <div class="small-chart">
+                                <p>Net volume from sales <span class="positive-change">+32.8%</span></p>
+                                <strong>R$39,274.29</strong> <small>R$29,573.54</small>
+                                <div class="chart-placeholder small-chart-img">
+                                    <img src="https://via.placeholder.com/220x60/E9E9EF/ADADBE?text=Small+Graph+1" alt="Net volume sales chart">
+                                </div>
+                                <div class="chart-footer">
+                                    <span>$12k</span>
+                                    <span>Apr 20</span>
+                                    <span>Today</span>
+                                </div>
+                                <small class="update-time">Updated today 7:50 AM</small>
+                            </div>
+                            <div class="small-chart">
+                                <p>New customers <span class="positive-change">+32.1%</span></p>
+                                <strong>37</strong> <small>28</small>
+                                <div class="chart-placeholder small-chart-img">
+                                    <img src="https://via.placeholder.com/220x60/E9E9EF/ADADBE?text=Small+Graph+2" alt="New customers chart">
+                                </div>
+                                <div class="chart-footer">
+                                    <span>12</span>
+                                    <span>Apr 20</span>
+                                    <span>Today</span>
+                                </div>
+                                <small class="update-time">Updated today 7:50 AM</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
