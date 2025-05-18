@@ -487,3 +487,17 @@ input, select, button { font-family: inherit; }
     background-position: 100% 100%;
   }
 }
+
+
+.header-icon {
+    width: 32px;          /* Tamanho do ícone */
+    height: 32px;         /* Tamanho do ícone */
+    margin-right: 10px;   /* Espaço entre o ícone e o texto */
+}
+
+
+.logo-link {
+    display: flex;        /* Para alinhar o ícone e o texto lado a lado */
+    align-items: center;  /* Alinha verticalmente o ícone e o texto */
+    text-decoration: none;/* Remove o sublinhado do link */
+}

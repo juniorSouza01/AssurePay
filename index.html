@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="image/IconAssure.png" type="image/png">
+    <title>AssurePay</title>
 </head>
 <body>
 
@@ -33,9 +35,9 @@
             <div class="hero-text-content">
                 <h1>Financial infrastructure to grow your <span>revenue</span></h1>
                 <p>Join the millions of companies that use AssurePay to accept payments online and in person, embed financial services, power custom revenue models, and build a more profitable business.</p>
-                <form class="email-signup">
+                <form class="email-signup" onsubmit="return false;"> <!-- Adicionado onsubmit para prevenir envio do formulário se o email for preenchido -->
                     <input type="email" placeholder="Email address">
-                    <button type="submit" class="btn btn-start-now">Start now <i class="fas fa-chevron-right"></i></button>
+                    <a href="login.html" class="btn btn-start-now">Start now <i class="fas fa-chevron-right"></i></a>
                 </form>
             </div>
             <div></div>
